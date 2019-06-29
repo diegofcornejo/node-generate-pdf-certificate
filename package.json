@@ -1,0 +1,13 @@
+{
+    "name": "ngtable",
+    "version": "0.1.0",
+    "description": "Angular table with mysql results",
+    "main": "server.js",
+    "author": "Diego Cornejo",
+    "license": "*",
+    "dependencies": {
+        "express": "latest",
+        "pdfkit": "^0.9.1",
+        "read-excel-file": "^3.0.1"
+    }
+}
