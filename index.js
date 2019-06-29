@@ -15,6 +15,11 @@ var server = app.listen(app.get('port'), function () {
 
     async function processArray(array) {
         const width = 792;
+        //Folder
+        var certs = `./certs`;
+        if (!fs.existsSync(certs)) {
+            fs.mkdirSync(certs);
+        }
         for (const item of array) {
             var name = item[0] || '';
             console.log(item);
