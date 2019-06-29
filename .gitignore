@@ -64,6 +64,6 @@ typings/
 .next
 
 # certs folder
-certs/
-list.xlsx
+# certs/
+# list.xlsx
 
